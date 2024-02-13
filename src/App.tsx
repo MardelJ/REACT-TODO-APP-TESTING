@@ -1,5 +1,5 @@
-import List from "./components/List";
+import List from "./components/ToDo";
 
 export default function App() {
-  return <List initialItems={['Iri', 'Viri', 'Ficari']} />
+  return <List initialItems={[]} />
 }
